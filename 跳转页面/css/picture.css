@@ -1,0 +1,33 @@
+body{
+    background: url(../images/container.jpg) no-repeat center center;
+    height: 100%;
+    background-size:cover;
+    /* background-color:#342f55 ; */
+}
+.container {
+    margin: 30px auto;
+    width: 1000px;
+    
+    /* height: 1079px; */
+    border: 1px solid #3d85a3;
+    color: rgb(236, 228, 228);
+    overflow: hidden;
+    padding: 0 20px 0 20px;
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.time{
+    font-size: 20px;
+    color: rgb(197, 187, 187);
+}
+
+.content p,span{
+    line-height: 48px;
+    font-size: 26px;
+}
+.content div{
+  text-align: center;
+  margin:0 20px 20px 0;
+}
